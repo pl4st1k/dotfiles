@@ -26,6 +26,14 @@ Install kitty theme:
     kitty +kitten themes
     
 *Doom One Light* looks ok
+### Fish
+Switch to vim mode:
+
+    fish_vi_key_bindings
+
+Add accept suggestions to fish config *.config/fish/config.fish*
+
+    bind -M insert \cf accept-autosuggestion
 
 ## Gnome
 
@@ -44,4 +52,4 @@ Enable smooth scrolling
 
 Slow down scroll, change:
 
-**about:config** **mousewheel.default.delta_multiplier_y** to **40**
+**about:config** **mousewheel.default.delta_multiplier_y** to **20**
